@@ -1,0 +1,12 @@
+﻿<Window x:Class="WPFClient.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Home" Height="300" Width="461.6" WindowStyle="ToolWindow">
+    <Grid>
+        <Button Content="Get Server Time" Margin="151,119,173.2,118.2" Width="131" Height="34" Click="GetServerTime"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="370,10,0,0" VerticalAlignment="Top" Width="75" Click="Logout"/>
+        <TextBlock HorizontalAlignment="Center" Margin="10,62,10.2,0" TextWrapping="Wrap" Text="" 
+                   VerticalAlignment="Top" Width="435" FontSize="24" TextAlignment="Center"
+                   Name="Message"/>
+    </Grid>
+</Window>
